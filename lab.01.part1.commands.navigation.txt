@@ -62,8 +62,8 @@ $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
 ----------
-
-
+.			Applications		NYCCT (2020-2024)
+..			Conformation Stuff 	Website Creations
 
 
 
