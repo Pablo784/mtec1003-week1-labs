@@ -186,8 +186,7 @@ If it doesn't ask for help before moving on!
 
 Copy and paste the output of pwd below.
 ----------
-
-
+/Users/pablo_vasquez/mtec1002
 
 
 
@@ -199,8 +198,7 @@ $ ls
 
 Copy and paste the output below.
 ----------
-
-animals
+mkdir: animals: File exists
 
 
 
@@ -213,10 +211,6 @@ $ ls
 Copy and paste the output below.
 ----------
 animals	food
-
-
-
-
 ==========
 17. Type:
 
@@ -228,8 +222,6 @@ Copy and paste the output below.
 
 animals	foo	food
 
-
-
 ==========
 18. Type:
 
@@ -239,8 +231,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
+/Users/pablo_vasquez/mtec1002/foo/bar/baz/qux
 
 
 
@@ -252,8 +243,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
+/Users/pablo_vasquez/mtec1002/foo/bar
 
 
 
@@ -267,8 +257,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 
-
-
+/Users/pablo_vasquez/mtec1002/foo/bar/baz/qux
 
 
 
@@ -280,8 +269,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
-
+/Users
 
 
 
@@ -296,6 +284,9 @@ $ ls -l
 Copy and paste the first 3 lines from the output into the space below.
 ----------
 
+total 0
+drwxrwxrwt   7 root           wheel  224 Jan  1  2020 Shared
+drwxr-xr-x+ 30 pablo_vasquez  staff  960 Feb  3 14:31 pablo_vasquez
 
 
 
@@ -309,8 +300,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
+/Users/pablo_vasquez
 
 
 
@@ -323,8 +313,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
+/Volumes
 
 
 
@@ -337,8 +326,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
+/Volumes
 
 
 
@@ -351,7 +339,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/pablo_vasquez/mtec1002
 
 
 
@@ -365,7 +353,7 @@ $ hostname
 Copy and paste the output into the space below.
 ----------
 
-
+Pablos-MacBook-Pro.local
 
 
 
@@ -374,7 +362,7 @@ Copy and paste the output into the space below.
 28. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
 
-
+ls
 
 
 
@@ -404,7 +392,7 @@ lemon
 
 Write the one command you used below:
 ----------
-
+mkdir 
 
 
 
@@ -416,7 +404,7 @@ Write the one command you used below:
 Write the command you used to create the directory below:
 ----------
 
-
+mkdir
 
 
 
@@ -426,7 +414,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+The modified date of the aardvark directory is Today, 3:26 PM
 
 
 
@@ -441,7 +429,7 @@ What is the modified date of the aardvark directory?
 
 What command did you use?
 ----------
-
+mkdir 
 
 
 
@@ -452,7 +440,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+mkdir 
 
 
 
@@ -463,7 +451,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd
 
 
 
@@ -472,7 +460,7 @@ What command did you use?
 ==========
 36. What command is used to delete empty directories?
 ----------
-
+rmdir
 
 
 
@@ -481,7 +469,7 @@ What command did you use?
 ==========
 37. What command is used to print out your current working directory?
 ----------
-
+pwd
 
 
 
@@ -491,7 +479,7 @@ What command did you use?
 38. What flag do I pass to ls to print out all files?
 ----------
 
-
+-l
 
 
 
@@ -500,7 +488,7 @@ What command did you use?
 39. What's the shortcut for home directory?
 ----------
 
-
+~
 
 
 
@@ -509,7 +497,7 @@ What command did you use?
 40. What's a pathname?
 ----------
 
-
+A pathmame is the general form of a name of a file or directory. In other words, it specifies a unique location the file system. 
 
 
 
@@ -517,7 +505,7 @@ What command did you use?
 ==========
 41. What is a directory?
 ----------
-
+A directory is what is used to organize files but overall a directory is the structure used to categorize in a file system and references other files (& directories). 
 
 
 
@@ -526,3 +514,4 @@ What command did you use?
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/Users/username/Downloads
